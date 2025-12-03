@@ -1,8 +1,8 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "dist/client",
+  "installCommand": "npm install --legacy-peer-deps",
   "devCommand": "npm run dev",
-  "installCommand": "npm install",
   "framework": null,
   "rewrites": [
     {
