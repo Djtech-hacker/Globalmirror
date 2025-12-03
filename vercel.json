@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "npm run cf-typegen && npm run build",
   "outputDirectory": "dist/client",
   "installCommand": "npm install --legacy-peer-deps",
   "devCommand": "npm run dev",
