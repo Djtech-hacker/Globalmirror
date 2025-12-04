@@ -1,13 +1,4 @@
 User-agent: *
 Allow: /
 
-# Explicitly allow sitemap
-Allow: /sitemap.xml
-
-# Block admin and dev directories
-Disallow: /admin/
-Disallow: /.wrangler/
-Disallow: /node_modules/
-
-# Sitemap location
-Sitemap: https://globalmirror.com/sitemap.xml
+Sitemap: https://globalmiror.com/sitemap.xml
