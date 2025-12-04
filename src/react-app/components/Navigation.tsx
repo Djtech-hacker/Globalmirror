@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import logo from '../../worker/1.jpeg';
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -36,9 +37,11 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link to="/" className="flex items-center space-x-3">
-            <div className="w-10 h-10 rounded-lg gradient-primary flex items-center justify-center">
-              <span className="text-white font-bold text-xl">GM</span>
-            </div>
+            <img 
+              src={logo} 
+              alt="Global Mirror Logo" 
+              className="h-12 w-auto object-contain rounded-lg"
+            />
             <div className="flex flex-col">
               <span className="text-white font-bold text-lg leading-tight">Global Mirror</span>
               <span className="text-gray-300 text-xs">Empowering Growth, Together</span>
