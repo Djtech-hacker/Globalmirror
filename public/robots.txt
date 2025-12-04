@@ -1,17 +1,11 @@
 User-agent: *
 Allow: /
 
+Sitemap: https://globalmirror.com/sitemap.xml
+
+# Disallow admin and development directories
 Disallow: /admin/
 Disallow: /.wrangler/
 Disallow: /node_modules/
-
-Sitemap: https://globalmirror.com/sitemap.xml
-
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Slurp
-Allow: /
+Disallow: /api/
+Disallow: /*.json$
