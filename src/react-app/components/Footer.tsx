@@ -9,9 +9,11 @@ export default function Footer() {
           {/* About */}
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <div className="w-10 h-10 rounded-lg gradient-primary flex items-center justify-center">
-                <span className="text-white font-bold text-xl">GM</span>
-              </div>
+              <img 
+                src="/1.jpeg" 
+                alt="Global Mirror Logo" 
+                className="w-10 h-10 rounded-lg object-cover"
+              />
               <div className="flex flex-col">
                 <span className="text-white font-bold text-lg leading-tight">Global Mirror</span>
               </div>
