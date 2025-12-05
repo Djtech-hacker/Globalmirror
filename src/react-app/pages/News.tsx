@@ -104,7 +104,7 @@ export default function News() {
             <p className="text-xl text-white/90 max-w-3xl mx-auto mb-8">
               Credible and truthful reporting on business, technology, and current affairs
             </p>
-            <p>className="text-lg text-white/80">https://www.globalmirrornewspaper.com</p>
+            <p className="text-lg text-white/80">https://www.globalmirrornewspaper.com</p>
           </motion.div>
         </div>
       </section>
