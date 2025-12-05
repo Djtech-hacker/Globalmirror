@@ -71,7 +71,7 @@ const services = [
   },
 ];
 
-const fadrekServices = [
+const globalMirrorServices = [
   'Human capital development',
   'Learning and development programs',
   'Competency-based training',
@@ -156,7 +156,7 @@ export default function Services() {
         </div>
       </section>
 
-      {/* FADREK Services */}
+      {/* Global Mirror Services */}
       <section className="py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -166,15 +166,15 @@ export default function Services() {
             className="text-center mb-12"
           >
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              FADREK <span className="text-gradient">Consulting Partnership</span>
+              Global Mirror <span className="text-gradient">Additional Services</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Extended human capital development services through our strategic partner
+              Extended human capital development and consulting services
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {fadrekServices.map((service, index) => (
+            {globalMirrorServices.map((service, index) => (
               <motion.div
                 key={service}
                 initial={{ opacity: 0, y: 30 }}
