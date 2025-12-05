@@ -110,7 +110,7 @@ export default function About() {
         </div>
       </section>
 
-      {/* FADREK Partnership */}
+      {/* Global Mirror Services */}
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -120,7 +120,7 @@ export default function About() {
             className="text-center mb-12"
           >
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              Strategic <span className="text-gradient">Partnerships</span>
+              Our <span className="text-gradient">Comprehensive Services</span>
             </h2>
           </motion.div>
 
@@ -135,11 +135,11 @@ export default function About() {
                 <Award className="text-white" size={32} />
               </div>
             </div>
-            <h3 className="text-3xl font-bold text-gray-900 mb-4 text-center">FADREK Consulting</h3>
+            <h3 className="text-3xl font-bold text-gray-900 mb-4 text-center">Global Mirror</h3>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Our partnership with FADREK Consulting extends our capabilities in human capital development, 
-              offering comprehensive learning and development programs, competency-based training, management 
-              retreats, and executive search services.
+              Global Mirror offers comprehensive capabilities in human capital development, consulting services, 
+              and credible journalism. Our services include learning and development programs, competency-based training, 
+              management retreats, executive search services, and truthful news reporting.
             </p>
             <blockquote className="border-l-4 border-[#2D3E9E] pl-6 italic text-gray-600 text-lg">
               "The mediocre teacher tells. The good teacher explains. The superior teacher demonstrates. 
@@ -174,7 +174,7 @@ export default function About() {
               </div>
               <div className="glass-dark p-8 rounded-2xl">
                 <h3 className="text-2xl font-bold text-gray-900 mb-3">Global Mirror Newspaper</h3>
-                <p className="text-[#E31E24] font-semibold mb-4">www.globalmirrornews.com</p>
+                <p className="text-[#E31E24] font-semibold mb-4">https://globalmirrornewspaper.com</p>
                 <p className="text-lg text-gray-700 italic mb-4">"Credible and Truthful"</p>
                 <p className="text-gray-600">
                   Delivering accurate, unbiased news coverage and insights to keep our readers informed 
