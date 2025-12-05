@@ -174,7 +174,7 @@ export default function About() {
               </div>
               <div className="glass-dark p-8 rounded-2xl">
                 <h3 className="text-2xl font-bold text-gray-900 mb-3">Global Mirror Newspaper</h3>
-                <p className="text-[#E31E24] font-semibold mb-4">https://globalmirrornewspaper.com</p>
+                <p className="text-[#E31E24] font-semibold mb-4">globalmirrornewspaper.com</p>
                 <p className="text-lg text-gray-700 italic mb-4">"Credible and Truthful"</p>
                 <p className="text-gray-600">
                   Delivering accurate, unbiased news coverage and insights to keep our readers informed 
