@@ -42,7 +42,7 @@ export default function Navigation() {
               className="h-12 w-auto object-contain rounded-lg"
             />
             <div className="flex flex-col">
-              <span className="text-white font-bold text-lg leading-tight">Global Mirror</span>
+              <span className="text-white font-bold text-lg leading-tight">Global Mirror Consulting</span>
               <span className="text-gray-300 text-xs">Empowering Growth, Together</span>
             </div>
           </Link>
