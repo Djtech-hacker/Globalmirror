@@ -45,7 +45,7 @@ const services = [
   },
   {
     icon: Users,
-    title: 'Executive & Management Training',
+    title: 'Executive & Management Training (Loacal and Oversea)',
     description: 'Develop leaders who drive organizational success',
     gradient: 'from-pink-500 to-red-500',
     features: [
